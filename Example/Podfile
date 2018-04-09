@@ -1,5 +1,6 @@
 use_frameworks!
-
+source 'https://github.com/2360219637/GGJSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 target 'GGJUITools_Example' do
   pod 'GGJUITools', :path => '../'
 

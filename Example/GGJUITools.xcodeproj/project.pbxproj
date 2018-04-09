@@ -61,10 +61,10 @@
 		6D05991BA779A343E4291102 /* Pods-GGJUITools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGJUITools_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGJUITools_Example/Pods-GGJUITools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		961BC677C439FC41A0AF77F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9D3CCF2A2976F8968C49325C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		961BC677C439FC41A0AF77F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9D3CCF2A2976F8968C49325C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9E2381C335287FAB6B8848D7 /* Pods-GGJUITools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGJUITools_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GGJUITools_Tests/Pods-GGJUITools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B21ED66F90A3DA3ACECBEBF6 /* GGJUITools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GGJUITools.podspec; path = ../GGJUITools.podspec; sourceTree = "<group>"; };
+		B21ED66F90A3DA3ACECBEBF6 /* GGJUITools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GGJUITools.podspec; path = ../GGJUITools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F1D2ABA0F8DC28F1B47FCA59 /* Pods_GGJUITools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGJUITools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE4808A96D20A8410CA3E20C /* Pods_GGJUITools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGJUITools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -334,10 +334,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GGJUITools_Example/Pods-GGJUITools_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GGJCategoryKit/GGJCategoryKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GGJUITools/GGJUITools.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GGJCategoryKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GGJUITools.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,6 @@
+framework module GGJCategoryKit {
+  umbrella header "GGJCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

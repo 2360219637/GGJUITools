@@ -1,0 +1,6 @@
+framework module Pods_GGJUITools_Example {
+  umbrella header "Pods-GGJUITools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module GGJUITools {
+  umbrella header "GGJUITools-umbrella.h"
+
+  export *
+  module * { export * }
+}
