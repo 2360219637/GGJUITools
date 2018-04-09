@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GGJUITools_Example' do
+  pod 'GGJUITools', :path => '../'
+
+  target 'GGJUITools_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
