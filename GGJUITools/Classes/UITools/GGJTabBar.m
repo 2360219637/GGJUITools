@@ -11,13 +11,11 @@
 @implementation GGJTabBar
 + (void)printLog{
     NSLog(@"123");
+    NSBundle *mainBundle = [NSBundle bundleForClass:[self class]];
+    NSBundle *resourcesBundle = [NSBundle bundleWithPath:[mainBundle pathForResource:@"GGJUITools" ofType:@"bundle"]];
+    UIImage *image = [UIImage imageNamed:@"1" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
+    NSLog(@"%@", image);
 }
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
+
 
 @end

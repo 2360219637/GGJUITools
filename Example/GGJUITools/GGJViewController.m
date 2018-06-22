@@ -7,7 +7,7 @@
 //
 
 #import "GGJViewController.h"
-
+#import "GGJTabBar.h"
 @interface GGJViewController ()
 
 @end
@@ -17,7 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    [GGJTabBar printLog];
+    
 }
 
 - (void)didReceiveMemoryWarning

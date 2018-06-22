@@ -23,5 +23,10 @@
     "GGJCategoryKit": [
 
     ]
+  },
+  "resource_bundles": {
+    "GGJUITools": [
+      "GGJUITools/Resources/*.bundle"
+    ]
   }
 }

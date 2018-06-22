@@ -21,9 +21,9 @@ TODO:UI组件封装
   s.source_files = 'GGJUITools/Classes/**/*'
   s.dependency 'GGJCategoryKit'
   
-  # s.resource_bundles = {
-  #   'GGJUITools' => ['GGJUITools/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'GGJUITools' => ['GGJUITools/Resources/*.bundle']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
