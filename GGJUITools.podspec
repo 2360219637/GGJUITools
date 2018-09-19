@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO:UI组件封装
                        DESC
+  s.screenshot = 'http://img.zcool.cn/community/01f09e577b85450000012e7e182cf0.jpg@1280w_1l_2o_100sh.jpg'
   s.homepage         = 'https://github.com/2360219637/GGJUITools'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chenzhichao' => 'chenzc@gegejia.com' }
